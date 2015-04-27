@@ -436,16 +436,40 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .159999996, y: .159999996, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &99362444
+=======
+--- !u!4 &579429079
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 404654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 1882739060}
+  m_GameObject: {fileID: 579429076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.18700004, y: .81400001, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+--- !u!1 &1033370330
+>>>>>>> fff5b46978f580f3f8dd5fcc7dce4e134290cb70
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 111928, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
   m_PrefabInternal: {fileID: 450833661}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 99362447}
   - 65: {fileID: 99362446}
   - 212: {fileID: 99362445}
+=======
+  - 4: {fileID: 1033370335}
+  - 20: {fileID: 1033370334}
+  - 92: {fileID: 1033370333}
+  - 124: {fileID: 1033370332}
+  - 81: {fileID: 1033370331}
+>>>>>>> fff5b46978f580f3f8dd5fcc7dce4e134290cb70
   m_Layer: 0
   m_Name: QuestionQube
   m_TagString: Untagged
@@ -453,6 +477,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!212 &99362445
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -502,6 +527,74 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
 --- !u!1 &134462182
+=======
+--- !u!81 &1033370331
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1033370330}
+  m_Enabled: 1
+--- !u!124 &1033370332
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1033370330}
+  m_Enabled: 1
+--- !u!92 &1033370333
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1033370330}
+  m_Enabled: 1
+--- !u!20 &1033370334
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1033370330}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .760784328, g: .760784328, b: .760784328, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 1000
+  field of view: 13
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
+--- !u!4 &1033370335
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1033370330}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.70000005, y: 1.05999994, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!1 &1499044103
+>>>>>>> fff5b46978f580f3f8dd5fcc7dce4e134290cb70
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 115634, guid: 4f4862e0170f74a44bf3178a15d0b24f, type: 2}
@@ -910,6 +1003,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 414512364}
   m_RootOrder: 2
+<<<<<<< HEAD
 --- !u!65 &259470686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6090,21 +6184,32 @@ Prefab:
   m_IsPrefabParent: 0
   m_IsExploded: 1
 --- !u!1 &2089211045
+=======
+--- !u!1 &1597681454
+>>>>>>> fff5b46978f580f3f8dd5fcc7dce4e134290cb70
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 2089211047}
   - 65: {fileID: 2089211046}
   m_Layer: 0
   m_Name: Stairs1
+=======
+  - 4: {fileID: 1597681456}
+  - 108: {fileID: 1597681455}
+  m_Layer: 0
+  m_Name: Directional Light
+>>>>>>> fff5b46978f580f3f8dd5fcc7dce4e134290cb70
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!65 &2089211046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6154,6 +6259,51 @@ Transform:
   m_GameObject: {fileID: 2102203002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: .639999986, y: 0, z: 0}
+=======
+--- !u!108 &1597681455
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1597681454}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Type: 1
+  m_Color: {r: 1, g: .956862748, b: .839215696, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_Strength: 1
+    m_Bias: .0500000007
+    m_Softness: 4
+    m_SoftnessFade: 1
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_ActuallyLightmapped: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_ShadowSamples: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_IndirectIntensity: 1
+  m_AreaSize: {x: 1, y: 1}
+--- !u!4 &1597681456
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1597681454}
+  m_LocalRotation: {x: .408217937, y: -.234569728, z: .109381676, w: .875426054}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+>>>>>>> fff5b46978f580f3f8dd5fcc7dce4e134290cb70
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224172260}
@@ -6241,6 +6391,7 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
   m_RootGameObject: {fileID: 50063261}
   m_IsPrefabParent: 0
+<<<<<<< HEAD
   m_IsExploded: 1
 --- !u!1 &2109346722
 GameObject:
@@ -6402,3 +6553,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+=======
+  m_IsExploded: 1
+>>>>>>> fff5b46978f580f3f8dd5fcc7dce4e134290cb70
