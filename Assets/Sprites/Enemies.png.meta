@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7b379918b7ad73a43943530029043366
-timeCreated: 1429811709
+timeCreated: 1430131958
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -22,8 +22,8 @@ TextureImporter:
     21300030: Enemies_15
     21300032: Enemies_16
     21300034: Enemies_17
-    21300036: Enemies_18
-    21300038: Enemies_19
+    21300036: Goombas-Large-Walk-01
+    21300038: Goombas-Large-Dead-01
     21300040: Enemies_20
     21300042: Enemies_21
     21300044: Enemies_22
@@ -114,7 +114,7 @@ TextureImporter:
     21300214: Enemies_107
     21300216: Enemies_108
     21300218: Enemies_109
-    21300220: Enemies_110
+    21300220: Goombas-Large-Walk-02
     21300222: Enemies_111
     21300224: Enemies_112
     21300226: Enemies_113
@@ -394,7 +394,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies_18
+    - name: Goombas-Large-Walk-01
       rect:
         serializedVersion: 2
         x: 0
@@ -404,7 +404,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies_19
+    - name: Goombas-Large-Dead-01
       rect:
         serializedVersion: 2
         x: 32
@@ -1314,12 +1314,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies_110
+    - name: Goombas-Large-Walk-02
       rect:
         serializedVersion: 2
         x: 16
         y: 96
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: .5, y: .5}
