@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e774f6c74905dce4ca73b166989d9952
-timeCreated: 1429902744
+timeCreated: 1430219529
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -14,7 +14,7 @@ TextureImporter:
     21300014: Mario-Luigi_7
     21300016: Mario-Luigi_8
     21300018: Mario-Luigi_9
-    21300020: Mario-Luigi_10
+    21300020: Mario-Small-LvlUp-01
     21300022: Mario-Run-02-01
     21300024: Mario-Run-03-01
     21300026: Mario-Run-05-01
@@ -244,7 +244,7 @@ TextureImporter:
     21300474: Mario-Small-Walk-03
     21300476: Mario-Large-Stop
     21300478: Mario-Jump-01-01
-    21300480: Mario-Luigi_240
+    21300480: Mario-Small-LvlDown-01
     21300482: Mario-Luigi_241
     21300484: Mario-Run-01-01
     21300486: Mario-Run-04-01
@@ -535,7 +535,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_10
+    - name: Mario-Small-LvlUp-01
       rect:
         serializedVersion: 2
         x: 320
@@ -2725,7 +2725,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_240
+    - name: Mario-Small-LvlDown-01
       rect:
         serializedVersion: 2
         x: 176
