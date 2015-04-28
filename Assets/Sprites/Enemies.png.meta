@@ -1,13 +1,13 @@
 fileFormatVersion: 2
 guid: 7b379918b7ad73a43943530029043366
-timeCreated: 1430131958
+timeCreated: 1430241710
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Enemies_0
-    21300002: Enemies_1
-    21300004: Enemies_2
-    21300006: Enemies_3
+    21300000: KoopaTroopa-Walk-01
+    21300002: KoopaTroopa-Walk-02
+    21300004: KoopaTroopa-Run-01
+    21300006: KoopaTroopa-Die-01
     21300008: Enemies_4
     21300010: Enemies_5
     21300012: Enemies_6
@@ -115,8 +115,8 @@ TextureImporter:
     21300216: Enemies_108
     21300218: Enemies_109
     21300220: Goombas-Large-Walk-02
-    21300222: Enemies_111
-    21300224: Enemies_112
+    21300222: KoopaTroopa-Run-02
+    21300224: KoopaTroopa-Die-02
     21300226: Enemies_113
     21300228: Enemies_114
     21300230: Enemies_115
@@ -192,7 +192,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 2048
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
     aniso: 16
@@ -214,7 +214,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Enemies_0
+    - name: KoopaTroopa-Walk-01
       rect:
         serializedVersion: 2
         x: 96
@@ -224,7 +224,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies_1
+    - name: KoopaTroopa-Walk-02
       rect:
         serializedVersion: 2
         x: 112
@@ -234,17 +234,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies_2
+    - name: KoopaTroopa-Run-01
       rect:
         serializedVersion: 2
         x: 128
-        y: 96
+        y: 95
         width: 15
-        height: 24
+        height: 25
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies_3
+    - name: KoopaTroopa-Die-01
       rect:
         serializedVersion: 2
         x: 160
@@ -1324,17 +1324,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies_111
+    - name: KoopaTroopa-Run-02
       rect:
         serializedVersion: 2
         x: 144
-        y: 96
+        y: 95
         width: 16
-        height: 22
+        height: 23
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies_112
+    - name: KoopaTroopa-Die-02
       rect:
         serializedVersion: 2
         x: 177

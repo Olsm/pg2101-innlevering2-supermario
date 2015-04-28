@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: KoopaTroopaAnimator
+  m_Controller: {fileID: 9100000, guid: 3e7e2f6dd0e46f54b85100277dd98452, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 6688e47cfa7301d4180a421afe1c7b52, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 85f33783cfbd1f34cb18e0437180f414, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f276aa94e2371e9468d98450f8b97b3d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f62a81a7cdfd6934f815251b03ab9a53, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f75bf4588a0914142b9ff44c4c0afaf1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 747a32e716f36e641b43ee74d90597da, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a83709ec7ed53ca4e89b8370f2dabcfa, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 93224eb92a4b1e04aaee6fd820241eef, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7decc208e2724eb4b980e068ab1200a4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 653567d1cbb53024d9727fff0233a110, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 85f33783cfbd1f34cb18e0437180f414, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 85f33783cfbd1f34cb18e0437180f414, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 747a32e716f36e641b43ee74d90597da, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 747a32e716f36e641b43ee74d90597da, type: 2}
