@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e774f6c74905dce4ca73b166989d9952
-timeCreated: 1430219529
+timeCreated: 1430244625
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -15,9 +15,9 @@ TextureImporter:
     21300016: Mario-Luigi_8
     21300018: Mario-Luigi_9
     21300020: Mario-Small-LvlUp-01
-    21300022: Mario-Run-02-01
-    21300024: Mario-Run-03-01
-    21300026: Mario-Run-05-01
+    21300022: Mario-Shoot-02
+    21300024: Mario-Shoot-03
+    21300026: Mario-Shoot-05
     21300028: Mario-Small-Walk-01
     21300030: Mario-Luigi_15
     21300032: Mario-Luigi_16
@@ -246,12 +246,12 @@ TextureImporter:
     21300478: Mario-Jump-01-01
     21300480: Mario-Small-LvlDown-01
     21300482: Mario-Luigi_241
-    21300484: Mario-Run-01-01
-    21300486: Mario-Run-04-01
+    21300484: Mario-Shoot-01
+    21300486: Mario-Shoot-04
     21300488: Mario-Small-Idle-01
     21300490: Mario-Luigi_245
     21300492: Mario-Small-Jump
-    21300494: Mario-Luigi_247
+    21300494: Mario-Die-01
     21300496: Mario-Luigi_248
     21300498: Mario-Luigi_249
     21300500: Mario-Luigi_250
@@ -545,7 +545,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Run-02-01
+    - name: Mario-Shoot-02
       rect:
         serializedVersion: 2
         x: 354
@@ -555,7 +555,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Run-03-01
+    - name: Mario-Shoot-03
       rect:
         serializedVersion: 2
         x: 368
@@ -565,7 +565,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Run-05-01
+    - name: Mario-Shoot-05
       rect:
         serializedVersion: 2
         x: 400
@@ -2745,7 +2745,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Run-01-01
+    - name: Mario-Shoot-01
       rect:
         serializedVersion: 2
         x: 336
@@ -2755,7 +2755,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Run-04-01
+    - name: Mario-Shoot-04
       rect:
         serializedVersion: 2
         x: 384
@@ -2795,7 +2795,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_247
+    - name: Mario-Die-01
       rect:
         serializedVersion: 2
         x: 177
