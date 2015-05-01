@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: fb2a44c442b986c4280a7e40880a1b8e
-timeCreated: 1430300152
+timeCreated: 1430303057
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -147,9 +147,9 @@ TextureImporter:
     21300280: Items_180
     21300282: Items_181
     21300284: Items_182
-    21300286: Items_183
-    21300288: Items_184
-    21300290: Items_185
+    21300286: Coin-01
+    21300288: Coin-02
+    21300290: Coin-03
     21300292: Items_186
     21300294: Items_187
     21300296: Items_79
@@ -1851,7 +1851,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Items_183
+    - name: Coin-01
       rect:
         serializedVersion: 2
         x: 1
@@ -1861,7 +1861,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Items_184
+    - name: Coin-02
       rect:
         serializedVersion: 2
         x: 9
@@ -1871,7 +1871,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Items_185
+    - name: Coin-03
       rect:
         serializedVersion: 2
         x: 17
