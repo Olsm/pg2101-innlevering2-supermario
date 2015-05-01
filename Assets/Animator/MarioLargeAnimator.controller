@@ -13,43 +13,43 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Jump
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Run
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: LevelUp
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: LevelDown
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Shoot
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Die
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: MarioAnimation
@@ -635,28 +635,28 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 110230146}
-    m_Position: {x: -108, y: -48, z: 0}
+    m_Position: {x: -276, y: -48, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110226060}
-    m_Position: {x: 156, y: 48, z: 0}
+    m_Position: {x: -12, y: 48, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110200154}
-    m_Position: {x: -276, y: 108, z: 0}
+    m_Position: {x: -444, y: 108, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110230826}
-    m_Position: {x: -72, y: 36, z: 0}
+    m_Position: {x: -240, y: 36, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110228886}
-    m_Position: {x: -312, y: 12, z: 0}
+    m_Position: {x: -480, y: 12, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110294310}
-    m_Position: {x: -420, y: 60, z: 0}
+    m_Position: {x: -588, y: 60, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110265000}
-    m_Position: {x: -648, y: -48, z: 0}
+    m_Position: {x: -816, y: -48, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110214642}
-    m_Position: {x: -540, y: 12, z: 0}
+    m_Position: {x: -708, y: 12, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 110148514}
@@ -669,8 +669,8 @@ AnimatorStateMachine:
       first: {fileID: 110770472}
       second: []
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: -396, y: -48, z: 0}
-  m_EntryPosition: {x: 168, y: 120, z: 0}
-  m_ExitPosition: {x: -636, y: 72, z: 0}
+  m_AnyStatePosition: {x: -564, y: -48, z: 0}
+  m_EntryPosition: {x: 0, y: 120, z: 0}
+  m_ExitPosition: {x: -804, y: 72, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 110226060}
