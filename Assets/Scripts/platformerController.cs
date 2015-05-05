@@ -6,24 +6,27 @@ using System.Collections;
 	private GameObject mario;
 	private GameObject powerCube;
 	private GameObject brick;
-	public float paddleSpeed = 0.01f; //Definer fart for paddlen
+	private float marioSpeed = 1f; //Definer fart for paddlen
 		private Animator animator;
 		private bool isWalking;
 		private bool movingRight;
 		private bool movingLeft;
-	public float yPos = 0.32f;
-	public float jumpPower = 0.065f;
-	public float jumpStartY = 0.32f;
-	public bool touchdown = true;
-	public bool falling = false;
-		
+	private float yPos = 0.32f;
+	private float jumpPower = 0.07f;
+	private float jumpStartY = 0.32f;
+	private bool touchdown = true;
+	private bool falling = false;
+	private Rigidbody rb;
+	private bool collision = false;
+	private bool jumping = false;
 		
 		private Vector2 playerPos =  new Vector2(0.15f, 0.32f); //Utgangsposisjon
 
 		void Start() {
-		powerCube = GameObject.Find ("SporsmalsCube");
-		mario = GameObject.Find ("SuperMarioSmall");
-		animator = mario.GetComponent<Animator>();
+			powerCube = GameObject.Find ("SporsmalsCube");
+			mario = GameObject.Find ("SuperMarioSmall");
+			animator = mario.GetComponent <Animator>();
+			rb = GetComponent <Rigidbody>();
 		}
 		
 		void startWalk(){
@@ -43,25 +46,42 @@ using System.Collections;
 		transform.localScale = theScale;
 	}
 
-	void flowerPopup(){
+	void flowerPopup() {
 		animator.speed = 1;
 	}
 
-
-	void OnCollisionEnter2D (Collision2D col)
-	
+	void OnCollisionEnter (Collision col)
 	{
-		Debug.Log ("Treff");
-		falling = true;
-		jumpPower = -jumpPower;
-			flowerPopup();
+		string parentName = "none";
+		if (col.gameObject.transform.parent)
+			parentName = col.gameObject.transform.parent.name;
+		if (parentName != "Bakke") {
+			collision = true;
+			Debug.Log ("Treff");
+			falling = true;
+			jumpPower = -jumpPower;
+			flowerPopup ();
+
+			if (col.gameObject.name == "prop_powerCube") {
+				Destroy (col.gameObject);
+			}
+		}
 	}
+	
+	void OnCollisionExit (Collision col) {
+		collision = false;
+	}
+
 		void Update ()
 		{
 
-		float xPos = transform.position.x + (Input.GetAxis ("Horizontal") * paddleSpeed);
-		playerPos = new Vector2 (xPos, yPos);
-		transform.position = playerPos;
+		if (Input.GetAxis ("Horizontal") != 0 || Input.GetAxis ("Vertical") != 0) {
+			float xPos = transform.position.x + (Input.GetAxis ("Horizontal") * Time.deltaTime * marioSpeed);
+			if (!jumping || collision) 
+				yPos = transform.position.y;
+			playerPos = new Vector3 (xPos, yPos, -0.01f);
+			transform.position = playerPos;
+		}
 
 		movingLeft = false;
 		movingRight = false;
@@ -80,43 +100,38 @@ using System.Collections;
 			movingLeft = true;
 		}
 
-		if (yPos <= jumpStartY) {
+		if (yPos <= jumpStartY && touchdown == false) {
 			touchdown = true;
 			falling = false;
-
+			animator.SetBool ("Jump", false);
+			jumping = false;
 		}
 
-		if (Input.GetKeyDown ("up") || Input.GetKeyDown ("space")) {
+		// Jump
+		if ((Input.GetKeyDown ("up") || Input.GetKeyDown ("space")) && !jumping && touchdown) {
+			jumping = true;
+			animator.SetBool ("Jump", true);
 			if (touchdown) {
 				jumpPower = 0.065f;
 				touchdown = false;
 				falling = false;
 				jumpStartY = transform.position.y;
+				falling = true;
 			}
 		}
 
-		if (Input.GetKeyUp ("up") || yPos < jumpStartY)
-
-			falling = true;
-
-
-		if (falling) {
+		if(falling){
 			jumpPower = jumpPower - (0.003f);
 			yPos = Mathf.Clamp (transform.position.y + jumpPower, jumpStartY, jumpStartY + 1f);
 		}
-		if (Input.GetKey ("up") || Input.GetKey ("space")) {
-
+		else if (Input.GetKey ("up") || Input.GetKey ("space")) {
 			if (!falling && !touchdown) {
 				jumpPower = jumpPower - (0.003f);
 				yPos = transform.position.y + jumpPower;
-			} 
-		}else if(falling){
-			jumpPower = jumpPower - (0.003f);
-			yPos = Mathf.Clamp (transform.position.y + jumpPower, jumpStartY, jumpStartY + 1f);
+				if (Input.GetKeyUp ("up") || jumpPower < 0)
+					falling = true;
+			}
 		}
-		
-		
-		
 
 		
 
