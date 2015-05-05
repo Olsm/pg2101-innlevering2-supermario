@@ -4,7 +4,7 @@ using System.Collections;
 public class gameLogic : MonoBehaviour {
 	private GameObject mario;
 	private GameObject powerCube;
-	private GameObject brick;
+	//private GameObject brick;
 
 	// Use this for initialization
 	void Start () {

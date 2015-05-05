@@ -6,7 +6,7 @@ using System.Collections;
 	private GameObject mario;
 	private GameObject powerCube;
 	private GameObject brick;
-	public float paddleSpeed = 0.1f; //Definer fart for paddlen
+	public float paddleSpeed = 0.01f; //Definer fart for paddlen
 		private Animator animator;
 		private bool isWalking;
 		private bool movingRight;
