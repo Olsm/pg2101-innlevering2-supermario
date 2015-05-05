@@ -87,6 +87,25 @@ NavMeshSettings:
     cellSize: .166666657
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &7107884 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 76155746}
+--- !u!54 &7107887
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 7107884}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &11798714
 GameObject:
   m_ObjectHideFlags: 0
@@ -96,6 +115,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 11798715}
   - 65: {fileID: 11798716}
+  - 54: {fileID: 11798717}
   m_Layer: 0
   m_Name: Stairs2
   m_TagString: Untagged
@@ -127,10 +147,82 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &11798717
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11798714}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &21922101 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 2054087504}
+--- !u!54 &21922105
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 21922101}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &42524378 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 107058, guid: 10a008102ebe7934595e9101f17b637f, type: 2}
+  m_PrefabInternal: {fileID: 146920426}
 --- !u!4 &42524379 stripped
 Transform:
   m_PrefabParentObject: {fileID: 466964, guid: 10a008102ebe7934595e9101f17b637f, type: 2}
   m_PrefabInternal: {fileID: 146920426}
+--- !u!54 &42524381
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 42524378}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &47072747 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 123846086}
+--- !u!54 &47072750
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 47072747}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &49564822
 GameObject:
   m_ObjectHideFlags: 0
@@ -140,6 +232,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 49564823}
   - 65: {fileID: 49564824}
+  - 54: {fileID: 49564825}
   m_Layer: 0
   m_Name: Stairs7
   m_TagString: Untagged
@@ -171,6 +264,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &49564825
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 49564822}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!4 &50063262 stripped
 Transform:
   m_PrefabParentObject: {fileID: 404654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
@@ -231,6 +339,101 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 404654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
   m_PrefabInternal: {fileID: 84811085}
+--- !u!1 &85310176 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 150595317}
+--- !u!54 &85310179
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 85310176}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &85979802 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 1902724562}
+--- !u!54 &85979806
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 85979802}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &95326694 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 1832419646}
+--- !u!54 &95326697
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 95326694}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &97627309 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 111928, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
+  m_PrefabInternal: {fileID: 320188093}
+--- !u!54 &97627313
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 97627309}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &113792006 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 111928, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
+  m_PrefabInternal: {fileID: 450833661}
+--- !u!54 &113792011
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 113792006}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &123846086
 Prefab:
   m_ObjectHideFlags: 0
@@ -342,6 +545,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 164923536}
   - 65: {fileID: 164923537}
+  - 54: {fileID: 164923538}
   m_Layer: 0
   m_Name: StairsR
   m_TagString: Untagged
@@ -377,6 +581,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &164923538
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 164923535}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &181339782
 Prefab:
   m_ObjectHideFlags: 0
@@ -416,6 +635,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 222384691}
   - 65: {fileID: 222384690}
+  - 54: {fileID: 222384689}
   m_Layer: 0
   m_Name: BrickLine3
   m_TagString: Untagged
@@ -423,6 +643,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &222384689
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 222384688}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!65 &222384690
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -461,6 +696,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 224172260}
   - 65: {fileID: 224172262}
+  - 54: {fileID: 224172261}
   m_Layer: 0
   m_Name: BrickLine2
   m_TagString: Untagged
@@ -488,6 +724,21 @@ Transform:
   - {fileID: 181339783}
   m_Father: {fileID: 0}
   m_RootOrder: 6
+--- !u!54 &224172261
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 224172259}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!65 &224172262
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -531,6 +782,25 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 411928, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
   m_PrefabInternal: {fileID: 228900874}
+--- !u!1 &252746514 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 181339782}
+--- !u!54 &252746517
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 252746514}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &259470684
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,6 +810,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 259470685}
   - 65: {fileID: 259470686}
+  - 54: {fileID: 259470687}
   m_Layer: 0
   m_Name: Stairs3
   m_TagString: Untagged
@@ -571,6 +842,40 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &259470687
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 259470684}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &270559410 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 111928, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
+  m_PrefabInternal: {fileID: 2047263132}
+--- !u!54 &270559414
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 270559410}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &283554298
 Prefab:
   m_ObjectHideFlags: 0
@@ -632,12 +937,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd95ede98987b4d7cba1b1bd5682acbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paddleSpeed: .200000003
-  yPos: .319999993
-  jumpPower: .0649999976
-  jumpStartY: .319999993
-  touchdown: 1
-  falling: 0
+--- !u!54 &286002500
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 286002497}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 1
+--- !u!65 &286002501
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 286002497}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .119999997, y: .159999996, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &298250358
 Prefab:
   m_ObjectHideFlags: 0
@@ -668,10 +994,48 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 404654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
   m_PrefabInternal: {fileID: 298250358}
+--- !u!1 &299018931 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 84811085}
+--- !u!54 &299018934
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 299018931}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &303014599 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 131092, guid: 7705908176e82054eb4499b86acb5505, type: 2}
+  m_PrefabInternal: {fileID: 1772911443}
 --- !u!4 &303014600 stripped
 Transform:
   m_PrefabParentObject: {fileID: 489628, guid: 7705908176e82054eb4499b86acb5505, type: 2}
   m_PrefabInternal: {fileID: 1772911443}
+--- !u!54 &303014602
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 303014599}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &320188093
 Prefab:
   m_ObjectHideFlags: 0
@@ -702,6 +1066,25 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 411928, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
   m_PrefabInternal: {fileID: 320188093}
+--- !u!1 &320503983 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 811184780}
+--- !u!54 &320503987
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 320503983}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &321486897
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,6 +1094,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 321486898}
   - 65: {fileID: 321486899}
+  - 54: {fileID: 321486900}
   m_Layer: 0
   m_Name: StairsR3
   m_TagString: Untagged
@@ -750,6 +1134,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &321486900
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321486897}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &337387545
 Prefab:
   m_ObjectHideFlags: 0
@@ -800,6 +1199,25 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 404654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
   m_PrefabInternal: {fileID: 337387545}
+--- !u!1 &341472351 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 1483925848}
+--- !u!54 &341472354
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 341472351}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &349498825
 Prefab:
   m_ObjectHideFlags: 0
@@ -855,6 +1273,25 @@ Prefab:
     - {fileID: 21204654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &355979468 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 111928, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
+  m_PrefabInternal: {fileID: 2010939919}
+--- !u!54 &355979473
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 355979468}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &360195685
 Prefab:
   m_ObjectHideFlags: 0
@@ -906,6 +1343,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 377019733}
   - 65: {fileID: 377019734}
+  - 54: {fileID: 377019735}
   m_Layer: 0
   m_Name: Stairs4
   m_TagString: Untagged
@@ -937,6 +1375,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &377019735
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 377019732}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &381674504
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,6 +1399,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 381674505}
   - 65: {fileID: 381674506}
+  - 54: {fileID: 381674507}
   m_Layer: 0
   m_Name: StairsL
   m_TagString: Untagged
@@ -981,6 +1435,59 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &381674507
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 381674504}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &402064955 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 111928, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
+  m_PrefabInternal: {fileID: 1006031240}
+--- !u!54 &402064959
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 402064955}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &405277726 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 561365526}
+--- !u!54 &405277729
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 405277726}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &414512362
 GameObject:
   m_ObjectHideFlags: 0
@@ -990,6 +1497,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 414512364}
   - 65: {fileID: 414512363}
+  - 54: {fileID: 414512365}
   m_Layer: 0
   m_Name: StairsL2
   m_TagString: Untagged
@@ -1025,6 +1533,40 @@ Transform:
   - {fileID: 1849511111}
   m_Father: {fileID: 0}
   m_RootOrder: 24
+--- !u!54 &414512365
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 414512362}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &428007924 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 604979402}
+--- !u!54 &428007927
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 428007924}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &450833661
 Prefab:
   m_ObjectHideFlags: 0
@@ -1164,6 +1706,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 461591474}
   - 65: {fileID: 461591475}
+  - 54: {fileID: 461591476}
   m_Layer: 0
   m_Name: StairsR2
   m_TagString: Untagged
@@ -1200,6 +1743,59 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &461591476
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 461591473}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &476452794 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 977391682}
+--- !u!54 &476452797
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 476452794}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &512101439 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 111928, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
+  m_PrefabInternal: {fileID: 1824397587}
+--- !u!54 &512101444
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 512101439}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &550828187
 GameObject:
   m_ObjectHideFlags: 0
@@ -1209,6 +1805,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 550828188}
   - 65: {fileID: 550828189}
+  - 54: {fileID: 550828190}
   m_Layer: 0
   m_Name: Stairs1
   m_TagString: Untagged
@@ -1240,6 +1837,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &550828190
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 550828187}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &555988874
 Prefab:
   m_ObjectHideFlags: 0
@@ -1249,11 +1861,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 438394, guid: 39e10c2a4917ed9479fe6985600dc3db, type: 2}
       propertyPath: m_LocalPosition.x
-      value: .100000001
+      value: 1.14999998
       objectReference: {fileID: 0}
     - target: {fileID: 438394, guid: 39e10c2a4917ed9479fe6985600dc3db, type: 2}
       propertyPath: m_LocalPosition.y
-      value: .349999994
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 438394, guid: 39e10c2a4917ed9479fe6985600dc3db, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1341,6 +1953,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 582529762}
   - 65: {fileID: 582529763}
+  - 54: {fileID: 582529764}
   m_Layer: 0
   m_Name: Stairs3
   m_TagString: Untagged
@@ -1372,6 +1985,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &582529764
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 582529761}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &591434352
 GameObject:
   m_ObjectHideFlags: 0
@@ -1381,6 +2009,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 591434354}
   - 65: {fileID: 591434353}
+  - 54: {fileID: 591434355}
   m_Layer: 0
   m_Name: Bakke1
   m_TagString: Untagged
@@ -1412,6 +2041,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904405178}
   m_RootOrder: 0
+--- !u!54 &591434355
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 591434352}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &592372505
 Prefab:
   m_ObjectHideFlags: 0
@@ -1484,10 +2128,67 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 404654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
   m_PrefabInternal: {fileID: 604979402}
+--- !u!1 &636850559 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 138134, guid: a7b5e8f494314134494a376ebd723952, type: 2}
+  m_PrefabInternal: {fileID: 592372505}
 --- !u!4 &636850560 stripped
 Transform:
   m_PrefabParentObject: {fileID: 423332, guid: a7b5e8f494314134494a376ebd723952, type: 2}
   m_PrefabInternal: {fileID: 592372505}
+--- !u!54 &636850562
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 636850559}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &637514001 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 1588934862}
+--- !u!54 &637514004
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 637514001}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &670159594 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 138134, guid: a7b5e8f494314134494a376ebd723952, type: 2}
+  m_PrefabInternal: {fileID: 1871238485}
+--- !u!54 &670159596
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 670159594}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &689395892
 GameObject:
   m_ObjectHideFlags: 0
@@ -1497,6 +2198,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 689395893}
   - 65: {fileID: 689395894}
+  - 54: {fileID: 689395895}
   m_Layer: 0
   m_Name: Stairs2
   m_TagString: Untagged
@@ -1528,6 +2230,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &689395895
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 689395892}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &729818105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1537,6 +2254,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 729818106}
   - 65: {fileID: 729818108}
+  - 54: {fileID: 729818107}
   m_Layer: 0
   m_Name: BrickLine6
   m_TagString: Untagged
@@ -1560,6 +2278,21 @@ Transform:
   - {fileID: 1588934863}
   m_Father: {fileID: 0}
   m_RootOrder: 16
+--- !u!54 &729818107
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 729818105}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!65 &729818108
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1582,6 +2315,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 748334155}
   - 65: {fileID: 748334156}
+  - 54: {fileID: 748334157}
   m_Layer: 0
   m_Name: Stairs5
   m_TagString: Untagged
@@ -1613,6 +2347,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &748334157
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 748334154}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &762095693
 Prefab:
   m_ObjectHideFlags: 0
@@ -1682,6 +2431,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 777950525}
   - 65: {fileID: 777950524}
+  - 54: {fileID: 777950526}
   m_Layer: 0
   m_Name: Stairs4
   m_TagString: Untagged
@@ -1713,6 +2463,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 381674505}
   m_RootOrder: 3
+--- !u!54 &777950526
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 777950523}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &811184780
 Prefab:
   m_ObjectHideFlags: 0
@@ -1768,6 +2533,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 826934243}
   - 65: {fileID: 826934242}
+  - 54: {fileID: 826934244}
   m_Layer: 0
   m_Name: Bakke3
   m_TagString: Untagged
@@ -1799,6 +2565,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904405178}
   m_RootOrder: 2
+--- !u!54 &826934244
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 826934241}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &828936067 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 1722598262}
+--- !u!54 &828936070
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 828936067}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &871935788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1808,6 +2608,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 871935789}
   - 65: {fileID: 871935790}
+  - 54: {fileID: 871935791}
   m_Layer: 0
   m_Name: Stairs2
   m_TagString: Untagged
@@ -1839,6 +2640,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &871935791
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 871935788}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &881714973
 GameObject:
   m_ObjectHideFlags: 0
@@ -1848,6 +2664,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 881714974}
   - 65: {fileID: 881714975}
+  - 54: {fileID: 881714976}
   m_Layer: 0
   m_Name: Stairs1
   m_TagString: Untagged
@@ -1879,6 +2696,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &881714976
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 881714973}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &882603012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1888,6 +2720,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 882603013}
   - 65: {fileID: 882603014}
+  - 54: {fileID: 882603015}
   m_Layer: 0
   m_Name: Stairs4
   m_TagString: Untagged
@@ -1919,6 +2752,40 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &882603015
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 882603012}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &884355546 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 111928, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
+  m_PrefabInternal: {fileID: 228900874}
+--- !u!54 &884355550
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 884355546}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &889212243
 Prefab:
   m_ObjectHideFlags: 0
@@ -1965,6 +2832,25 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &899423216 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 360195685}
+--- !u!54 &899423220
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 899423216}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &904405177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1974,6 +2860,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 904405178}
   - 65: {fileID: 904405179}
+  - 54: {fileID: 904405180}
   m_Layer: 0
   m_Name: Bakke
   m_TagString: Untagged
@@ -2009,6 +2896,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0, y: 0, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &904405180
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 904405177}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &910911298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2018,6 +2920,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 910911299}
   - 65: {fileID: 910911300}
+  - 54: {fileID: 910911301}
   m_Layer: 0
   m_Name: Stairs1
   m_TagString: Untagged
@@ -2049,6 +2952,40 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &910911301
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 910911298}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &918216658 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 1120654925}
+--- !u!54 &918216661
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 918216658}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &977391682
 Prefab:
   m_ObjectHideFlags: 0
@@ -2075,6 +3012,25 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 404654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
   m_PrefabInternal: {fileID: 977391682}
+--- !u!1 &985000505 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 337387545}
+--- !u!54 &985000508
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 985000505}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &1000324147
 Prefab:
   m_ObjectHideFlags: 0
@@ -2289,6 +3245,25 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 489628, guid: 7705908176e82054eb4499b86acb5505, type: 2}
   m_PrefabInternal: {fileID: 1076313215}
+--- !u!1 &1082609971 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 1978167450}
+--- !u!54 &1082609974
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1082609971}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &1109864428
 GameObject:
   m_ObjectHideFlags: 0
@@ -2298,6 +3273,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1109864430}
   - 65: {fileID: 1109864429}
+  - 54: {fileID: 1109864431}
   m_Layer: 0
   m_Name: Pipes
   m_TagString: Untagged
@@ -2335,6 +3311,21 @@ Transform:
   - {fileID: 1871238486}
   m_Father: {fileID: 0}
   m_RootOrder: 20
+--- !u!54 &1109864431
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1109864428}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &1120654925
 Prefab:
   m_ObjectHideFlags: 0
@@ -2369,6 +3360,44 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 404654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
   m_PrefabInternal: {fileID: 1120654925}
+--- !u!1 &1172972314 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 762095693}
+--- !u!54 &1172972317
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1172972314}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &1196802461 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 298250358}
+--- !u!54 &1196802464
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1196802461}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &1219976100
 Prefab:
   m_ObjectHideFlags: 0
@@ -2408,6 +3437,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1230209764}
   - 65: {fileID: 1230209766}
+  - 54: {fileID: 1230209765}
   m_Layer: 0
   m_Name: BrickLine0
   m_TagString: Untagged
@@ -2432,6 +3462,21 @@ Transform:
   - {fileID: 337387546}
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!54 &1230209765
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1230209763}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!65 &1230209766
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2491,6 +3536,25 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1330929863 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 764567199}
+--- !u!54 &1330929866
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1330929863}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &1338664253
 GameObject:
   m_ObjectHideFlags: 0
@@ -2500,6 +3564,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1338664254}
   - 65: {fileID: 1338664255}
+  - 54: {fileID: 1338664256}
   m_Layer: 0
   m_Name: Stairs1
   m_TagString: Untagged
@@ -2531,6 +3596,40 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1338664256
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1338664253}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &1355315441 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 1411132516}
+--- !u!54 &1355315444
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1355315441}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &1359214649
 GameObject:
   m_ObjectHideFlags: 0
@@ -2540,6 +3639,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1359214650}
   - 65: {fileID: 1359214651}
+  - 54: {fileID: 1359214652}
   m_Layer: 0
   m_Name: Stairs6
   m_TagString: Untagged
@@ -2571,6 +3671,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1359214652
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1359214649}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &1379052665
 Prefab:
   m_ObjectHideFlags: 0
@@ -2713,6 +3828,25 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 404654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
   m_PrefabInternal: {fileID: 1411132516}
+--- !u!1 &1415076215 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 2102814563}
+--- !u!54 &1415076216
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1415076215}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &1483925848
 Prefab:
   m_ObjectHideFlags: 0
@@ -2798,6 +3932,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1488248460}
   - 65: {fileID: 1488248462}
+  - 54: {fileID: 1488248461}
   m_Layer: 0
   m_Name: BrickLine4
   m_TagString: Untagged
@@ -2819,6 +3954,21 @@ Transform:
   - {fileID: 298250359}
   m_Father: {fileID: 0}
   m_RootOrder: 9
+--- !u!54 &1488248461
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1488248459}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!65 &1488248462
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2841,6 +3991,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1503327963}
   - 65: {fileID: 1503327964}
+  - 54: {fileID: 1503327965}
   m_Layer: 0
   m_Name: Stairs3
   m_TagString: Untagged
@@ -2872,6 +4023,40 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1503327965
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1503327962}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &1521091469 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 889212243}
+--- !u!54 &1521091473
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1521091469}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &1526366193
 GameObject:
   m_ObjectHideFlags: 0
@@ -2881,6 +4066,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1526366194}
   - 65: {fileID: 1526366195}
+  - 54: {fileID: 1526366196}
   m_Layer: 0
   m_Name: Stairs4
   m_TagString: Untagged
@@ -2912,6 +4098,40 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1526366196
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1526366193}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &1538419288 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 131092, guid: 7705908176e82054eb4499b86acb5505, type: 2}
+  m_PrefabInternal: {fileID: 1076313215}
+--- !u!54 &1538419290
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1538419288}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &1588934862
 Prefab:
   m_ObjectHideFlags: 0
@@ -3002,6 +4222,44 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 404654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
   m_PrefabInternal: {fileID: 1659196338}
+--- !u!1 &1669003779 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 1907753182}
+--- !u!54 &1669003783
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1669003779}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &1679737261 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 1485211419}
+--- !u!54 &1679737265
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1679737261}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &1700508663
 GameObject:
   m_ObjectHideFlags: 0
@@ -3011,6 +4269,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1700508666}
   - 65: {fileID: 1700508665}
+  - 54: {fileID: 1700508664}
   m_Layer: 0
   m_Name: BrickLine1
   m_TagString: Untagged
@@ -3018,6 +4277,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &1700508664
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1700508663}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!65 &1700508665
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3111,6 +4385,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1732878223}
   - 65: {fileID: 1732878222}
+  - 54: {fileID: 1732878224}
   m_Layer: 0
   m_Name: Bakke2
   m_TagString: Untagged
@@ -3142,6 +4417,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904405178}
   m_RootOrder: 1
+--- !u!54 &1732878224
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1732878221}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &1735145764
 GameObject:
   m_ObjectHideFlags: 0
@@ -3151,6 +4441,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1735145765}
   - 65: {fileID: 1735145766}
+  - 54: {fileID: 1735145767}
   m_Layer: 0
   m_Name: Stairs3
   m_TagString: Untagged
@@ -3182,6 +4473,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1735145767
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1735145764}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &1772911443
 Prefab:
   m_ObjectHideFlags: 0
@@ -3221,9 +4527,32 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6533774, guid: 7705908176e82054eb4499b86acb5505, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7705908176e82054eb4499b86acb5505, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1814420214 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 111928, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
+  m_PrefabInternal: {fileID: 1711547205}
+--- !u!54 &1814420218
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1814420214}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &1824397587
 Prefab:
   m_ObjectHideFlags: 0
@@ -3304,6 +4633,25 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 404654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
   m_PrefabInternal: {fileID: 1832419646}
+--- !u!1 &1839827889 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 111928, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
+  m_PrefabInternal: {fileID: 283554298}
+--- !u!54 &1839827894
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1839827889}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &1847607471
 GameObject:
   m_ObjectHideFlags: 0
@@ -3313,6 +4661,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1847607473}
   - 65: {fileID: 1847607472}
+  - 54: {fileID: 1847607474}
   m_Layer: 0
   m_Name: Stairs4
   m_TagString: Untagged
@@ -3344,6 +4693,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 321486898}
   m_RootOrder: 3
+--- !u!54 &1847607474
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1847607471}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &1849511110
 GameObject:
   m_ObjectHideFlags: 0
@@ -3353,6 +4717,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1849511111}
   - 65: {fileID: 1849511112}
+  - 54: {fileID: 1849511113}
   m_Layer: 0
   m_Name: Stairs4
   m_TagString: Untagged
@@ -3384,6 +4749,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1849511113
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1849511110}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &1871238485
 Prefab:
   m_ObjectHideFlags: 0
@@ -3422,6 +4802,44 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 423332, guid: a7b5e8f494314134494a376ebd723952, type: 2}
   m_PrefabInternal: {fileID: 1871238485}
+--- !u!1 &1882034819 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 111928, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
+  m_PrefabInternal: {fileID: 1380443910}
+--- !u!54 &1882034824
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882034819}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &1899780614 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 111928, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
+  m_PrefabInternal: {fileID: 1379052665}
+--- !u!54 &1899780619
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1899780614}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &1902724562
 Prefab:
   m_ObjectHideFlags: 0
@@ -3540,6 +4958,25 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 404654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
   m_PrefabInternal: {fileID: 1928426861}
+--- !u!1 &1935761640 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 111928, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
+  m_PrefabInternal: {fileID: 1299755817}
+--- !u!54 &1935761645
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1935761640}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &1957502461
 GameObject:
   m_ObjectHideFlags: 0
@@ -3549,6 +4986,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1957502462}
   - 65: {fileID: 1957502463}
+  - 54: {fileID: 1957502464}
   m_Layer: 0
   m_Name: Stairs2
   m_TagString: Untagged
@@ -3580,6 +5018,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1957502464
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1957502461}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!4 &1958340124 stripped
 Transform:
   m_PrefabParentObject: {fileID: 404654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
@@ -3614,6 +5067,44 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 404654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
   m_PrefabInternal: {fileID: 1978167450}
+--- !u!1 &1979602291 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 131092, guid: 7705908176e82054eb4499b86acb5505, type: 2}
+  m_PrefabInternal: {fileID: 1034816340}
+--- !u!54 &1979602293
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1979602291}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &2004657901 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 1659196338}
+--- !u!54 &2004657904
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2004657901}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &2010939919
 Prefab:
   m_ObjectHideFlags: 0
@@ -3669,6 +5160,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2020675614}
   - 65: {fileID: 2020675616}
+  - 54: {fileID: 2020675615}
   m_Layer: 0
   m_Name: BrickLine7
   m_TagString: Untagged
@@ -3690,6 +5182,21 @@ Transform:
   - {fileID: 123846087}
   m_Father: {fileID: 0}
   m_RootOrder: 17
+--- !u!54 &2020675615
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2020675613}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!65 &2020675616
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3779,6 +5286,25 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2056339511 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 349498825}
+--- !u!54 &2056339512
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2056339511}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &2089211045
 GameObject:
   m_ObjectHideFlags: 0
@@ -3788,6 +5314,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2089211047}
   - 65: {fileID: 2089211046}
+  - 54: {fileID: 2089211048}
   m_Layer: 0
   m_Name: Stairs1
   m_TagString: Untagged
@@ -3819,6 +5346,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 164923536}
   m_RootOrder: 0
+--- !u!54 &2089211048
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2089211045}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &2090761662 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 111928, guid: aaeb3b7fb33e44080bd7675cd4afc716, type: 2}
+  m_PrefabInternal: {fileID: 1219976100}
+--- !u!54 &2090761666
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2090761662}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &2092923675 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 1649576957}
+--- !u!54 &2092923678
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2092923675}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &2102814563
 Prefab:
   m_ObjectHideFlags: 0
@@ -3883,6 +5463,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2109346724}
   - 65: {fileID: 2109346723}
+  - 54: {fileID: 2109346725}
   m_Layer: 0
   m_Name: Stairs3
   m_TagString: Untagged
@@ -3914,6 +5495,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 461591474}
   m_RootOrder: 2
+--- !u!54 &2109346725
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2109346722}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &2128883413
 GameObject:
   m_ObjectHideFlags: 0
@@ -3923,6 +5519,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2128883414}
   - 65: {fileID: 2128883415}
+  - 54: {fileID: 2128883416}
   m_Layer: 0
   m_Name: Stairs8
   m_TagString: Untagged
@@ -3954,6 +5551,40 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2128883416
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2128883413}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &2137088758 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 1928426861}
+--- !u!54 &2137088761
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2137088758}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &2139347278
 GameObject:
   m_ObjectHideFlags: 0
@@ -3963,6 +5594,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2139347280}
   - 65: {fileID: 2139347279}
+  - 54: {fileID: 2139347281}
   m_Layer: 0
   m_Name: Bakke4
   m_TagString: Untagged
@@ -3994,6 +5626,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 904405178}
   m_RootOrder: 3
+--- !u!54 &2139347281
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2139347278}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &2141439830
 GameObject:
   m_ObjectHideFlags: 0
@@ -4003,6 +5650,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2141439831}
   - 65: {fileID: 2141439832}
+  - 54: {fileID: 2141439833}
   m_Layer: 0
   m_Name: Stairs2
   m_TagString: Untagged
@@ -4034,3 +5682,37 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: .5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2141439833
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2141439830}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!1 &2145371493 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104654, guid: b4f2b246f0f3944188b74fa7c83d89a1, type: 2}
+  m_PrefabInternal: {fileID: 1000324147}
+--- !u!54 &2145371497
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2145371493}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
