@@ -1,30 +1,30 @@
 fileFormatVersion: 2
 guid: e774f6c74905dce4ca73b166989d9952
-timeCreated: 1429902744
+timeCreated: 1430480588
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Mario-Luigi_0
     21300002: Mario-Large-Walk-02
     21300004: Mario-Large-Walk-03
-    21300006: Mario-Luigi_3
-    21300008: Mario-Luigi_4
-    21300010: Mario-Luigi_5
-    21300012: Mario-Luigi_6
-    21300014: Mario-Luigi_7
-    21300016: Mario-Luigi_8
+    21300006: Mario-Large-PoleDown-01
+    21300008: Mario-Large-PoleDown-02
+    21300010: Mario-Large-PoleDown-03
+    21300012: Mario-Large-PoleDown-04
+    21300014: Mario-Large-PoleDown-05
+    21300016: Mario-Large-PoleDown-06
     21300018: Mario-Luigi_9
-    21300020: Mario-Luigi_10
-    21300022: Mario-Run-02-01
-    21300024: Mario-Run-03-01
-    21300026: Mario-Run-05-01
+    21300020: Mario-Small-LvlUp-01
+    21300022: Mario-Shoot-02
+    21300024: Mario-Shoot-03
+    21300026: Mario-Shoot-05
     21300028: Mario-Small-Walk-01
-    21300030: Mario-Luigi_15
-    21300032: Mario-Luigi_16
-    21300034: Mario-Luigi_17
-    21300036: Mario-Luigi_18
-    21300038: Mario-Luigi_19
-    21300040: Mario-Luigi_20
+    21300030: Mario-Small-PoleDown-01
+    21300032: Mario-Small-PoleDown-02
+    21300034: Mario-Small-PoleDown-03
+    21300036: Mario-Small-PoleDown-04
+    21300038: Mario-Small-PoleDown-05
+    21300040: Mario-Small-PoleDown-06
     21300042: Mario-Luigi_21
     21300044: Mario-Luigi_22
     21300046: Mario-Luigi_23
@@ -244,14 +244,14 @@ TextureImporter:
     21300474: Mario-Small-Walk-03
     21300476: Mario-Large-Stop
     21300478: Mario-Jump-01-01
-    21300480: Mario-Luigi_240
+    21300480: Mario-Small-LvlDown-01
     21300482: Mario-Luigi_241
-    21300484: Mario-Run-01-01
-    21300486: Mario-Run-04-01
+    21300484: Mario-Shoot-01
+    21300486: Mario-Shoot-04
     21300488: Mario-Small-Idle-01
     21300490: Mario-Luigi_245
     21300492: Mario-Small-Jump
-    21300494: Mario-Luigi_247
+    21300494: Mario-Die-01
     21300496: Mario-Luigi_248
     21300498: Mario-Luigi_249
     21300500: Mario-Luigi_250
@@ -465,7 +465,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_3
+    - name: Mario-Large-PoleDown-01
       rect:
         serializedVersion: 2
         x: 193
@@ -475,7 +475,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_4
+    - name: Mario-Large-PoleDown-02
       rect:
         serializedVersion: 2
         x: 209
@@ -485,7 +485,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_5
+    - name: Mario-Large-PoleDown-03
       rect:
         serializedVersion: 2
         x: 226
@@ -495,7 +495,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_6
+    - name: Mario-Large-PoleDown-04
       rect:
         serializedVersion: 2
         x: 240
@@ -505,7 +505,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_7
+    - name: Mario-Large-PoleDown-05
       rect:
         serializedVersion: 2
         x: 258
@@ -515,7 +515,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_8
+    - name: Mario-Large-PoleDown-06
       rect:
         serializedVersion: 2
         x: 272
@@ -535,7 +535,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_10
+    - name: Mario-Small-LvlUp-01
       rect:
         serializedVersion: 2
         x: 320
@@ -545,7 +545,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Run-02-01
+    - name: Mario-Shoot-02
       rect:
         serializedVersion: 2
         x: 354
@@ -555,7 +555,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Run-03-01
+    - name: Mario-Shoot-03
       rect:
         serializedVersion: 2
         x: 368
@@ -565,7 +565,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Run-05-01
+    - name: Mario-Shoot-05
       rect:
         serializedVersion: 2
         x: 400
@@ -585,7 +585,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_15
+    - name: Mario-Small-PoleDown-01
       rect:
         serializedVersion: 2
         x: 194
@@ -595,7 +595,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_16
+    - name: Mario-Small-PoleDown-02
       rect:
         serializedVersion: 2
         x: 210
@@ -605,7 +605,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_17
+    - name: Mario-Small-PoleDown-03
       rect:
         serializedVersion: 2
         x: 225
@@ -615,7 +615,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_18
+    - name: Mario-Small-PoleDown-04
       rect:
         serializedVersion: 2
         x: 241
@@ -625,7 +625,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_19
+    - name: Mario-Small-PoleDown-05
       rect:
         serializedVersion: 2
         x: 257
@@ -635,7 +635,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_20
+    - name: Mario-Small-PoleDown-06
       rect:
         serializedVersion: 2
         x: 273
@@ -2725,7 +2725,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_240
+    - name: Mario-Small-LvlDown-01
       rect:
         serializedVersion: 2
         x: 176
@@ -2745,7 +2745,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Run-01-01
+    - name: Mario-Shoot-01
       rect:
         serializedVersion: 2
         x: 336
@@ -2755,7 +2755,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Run-04-01
+    - name: Mario-Shoot-04
       rect:
         serializedVersion: 2
         x: 384
@@ -2795,7 +2795,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mario-Luigi_247
+    - name: Mario-Die-01
       rect:
         serializedVersion: 2
         x: 177
