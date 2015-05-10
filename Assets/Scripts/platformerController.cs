@@ -12,21 +12,23 @@ using System.Collections;
 		private bool movingRight;
 		private bool movingLeft;
 	private float yPos = 0.32f;
-	private float jumpPower = 0.07f;
-	private float jumpStartY = 0.32f;
-	private bool touchdown = true;
-	private bool falling = false;
-	private Rigidbody rb;
-	private bool collision = false;
+	private float jumpPower = 4f;
+	private bool touchdown = false;
+	private Rigidbody2D rb;
 	private bool jumping = false;
+
+	private BoxCollider2D bodyCollider;
+	public BoxCollider2D headCollider;
+	public BoxCollider2D feetCollider;
 		
 		private Vector2 playerPos =  new Vector2(0.15f, 0.32f); //Utgangsposisjon
 
 		void Start() {
-			powerCube = GameObject.Find ("SporsmalsCube");
+			rb = GetComponent <Rigidbody2D>();
+			powerCube = GameObject.Find ("QuestionBlock");
 			mario = GameObject.Find ("SuperMarioSmall");
+			bodyCollider = mario.GetComponent <BoxCollider2D>();
 			animator = mario.GetComponent <Animator>();
-			rb = GetComponent <Rigidbody>();
 		}
 		
 		void startWalk(){
@@ -50,38 +52,54 @@ using System.Collections;
 		animator.speed = 1;
 	}
 
-	void OnCollisionEnter (Collision col)
+	void OnCollisionEnter2D (Collision2D col)
 	{
-		string parentName = "none";
-		if (col.gameObject.transform.parent)
-			parentName = col.gameObject.transform.parent.name;
-		if (parentName != "Bakke") {
-			collision = true;
-			Debug.Log ("Treff");
-			falling = true;
-			jumpPower = -jumpPower;
-			flowerPopup ();
-
-			if (col.gameObject.name == "prop_powerCube") {
-				Destroy (col.gameObject);
+		Collider2D otherCollider = col.contacts [0].otherCollider;
+		Collider2D thisCollider = col.contacts [0].collider;
+		Debug.Log ("Enter: " + otherCollider);
+		if (thisCollider == feetCollider || otherCollider == feetCollider) {
+			touchdown = true;
+			jumping = false;
+			animator.SetBool ("Jump", false);
+		} else if (otherCollider == headCollider) {
+			touchdown = false;
+			if (col.gameObject.name == "QuestionBlock") {
+				foreach (Transform child in col.gameObject.transform)
+				{
+					Animator qBlockItemAnimator = child.gameObject.GetComponent <Animator>();
+					AudioSource audio = child.GetComponent <AudioSource>();
+					if (qBlockItemAnimator)
+						qBlockItemAnimator.SetTrigger("Start");
+					if (audio) 
+						audio.Play();
+				}
 			}
 		}
 	}
 	
-	void OnCollisionExit (Collision col) {
-		collision = false;
+	void OnCollisionExit2D (Collision2D col) {
+		Collider2D otherCollider = col.contacts [0].otherCollider;
+		Collider2D thisCollider = col.contacts [0].collider;
+		if (thisCollider == feetCollider || otherCollider == feetCollider) {
+			touchdown = false;
+		}
+	}
+
+	void FixedUpdate() {
+		if (Input.GetAxis ("Horizontal") != 0 || Input.GetAxis ("Vertical") != 0) {
+			float xPos = Input.GetAxis ("Horizontal") * marioSpeed;
+			yPos = rb.velocity.y;
+			if (!jumping)
+				rb.velocity = new Vector2 (xPos, yPos);
+			else {
+				rb.velocity = new Vector2 (rb.velocity.x, jumpPower);
+				jumping = false;
+			}
+		}
 	}
 
 		void Update ()
 		{
-
-		if (Input.GetAxis ("Horizontal") != 0 || Input.GetAxis ("Vertical") != 0) {
-			float xPos = transform.position.x + (Input.GetAxis ("Horizontal") * Time.deltaTime * marioSpeed);
-			if (!jumping || collision) 
-				yPos = transform.position.y;
-			playerPos = new Vector3 (xPos, yPos, -0.01f);
-			transform.position = playerPos;
-		}
 
 		movingLeft = false;
 		movingRight = false;
@@ -100,37 +118,10 @@ using System.Collections;
 			movingLeft = true;
 		}
 
-		if (yPos <= jumpStartY && touchdown == false) {
-			touchdown = true;
-			falling = false;
-			animator.SetBool ("Jump", false);
-			jumping = false;
-		}
-
 		// Jump
 		if ((Input.GetKeyDown ("up") || Input.GetKeyDown ("space")) && !jumping && touchdown) {
 			jumping = true;
 			animator.SetBool ("Jump", true);
-			if (touchdown) {
-				jumpPower = 0.065f;
-				touchdown = false;
-				falling = false;
-				jumpStartY = transform.position.y;
-				falling = true;
-			}
-		}
-
-		if(falling){
-			jumpPower = jumpPower - (0.003f);
-			yPos = Mathf.Clamp (transform.position.y + jumpPower, jumpStartY, jumpStartY + 1f);
-		}
-		else if (Input.GetKey ("up") || Input.GetKey ("space")) {
-			if (!falling && !touchdown) {
-				jumpPower = jumpPower - (0.003f);
-				yPos = transform.position.y + jumpPower;
-				if (Input.GetKeyUp ("up") || jumpPower < 0)
-					falling = true;
-			}
 		}
 
 		
