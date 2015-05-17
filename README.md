@@ -1,4 +1,4 @@
-# Readme for PG2101-Innlevering2:SuperMario #
+# Readme for PG2201-Innlevering2:SuperMario #
 
 Dokumentasjonen skal være på google docs og backup i master branch som Dokumentasjon.pdf, eventuelt i Wiki.
 
