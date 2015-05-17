@@ -116,7 +116,14 @@ public class platformerController : MonoBehaviour
 		if (other.name == "GameOverCollider") {
 			GetComponent<AudioSource>().Stop();
 			other.GetComponent<AudioSource>().Play();
+			StartCoroutine(LoadLevelWait(4,"GameOver"));
 		}
+	}
+
+	IEnumerator LoadLevelWait(int sleep, string scene)
+	{
+		yield return new WaitForSeconds(sleep);
+		Application.LoadLevel(scene);
 	}
 	
 	void FixedUpdate() {
